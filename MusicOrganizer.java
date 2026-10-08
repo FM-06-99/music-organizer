@@ -81,6 +81,16 @@ public class MusicOrganizer
             System.out.println(filename);
         }
     }
+    
+    public void listWithIndex()
+    {
+        int position = 0;
+        while (position < files.size())
+        {
+            System.out.println(position + ":" + files.get(position));
+            position ++;
+        }
+    }
 }
 
 
