@@ -1,0 +1,62 @@
+BlueJ run started: Thu Oct 08 19:50:29 EDT 2026
+BlueJ version 6.0.1
+Build ID: 5886da07
+Java version 21.0.6
+JavaFX version 23.0.2+3
+Virtual machine: OpenJDK 64-Bit Server VM 21.0.6+7-LTS (Eclipse Adoptium)
+Running on: Windows 11 10.0 (amd64)
+Java Home: C:\Users\fatim\OneDrive\Desktop\BlueJ-windows-6.0.1\bluej\jdk
+----
+Detected language "english" based on iso639-2 code "eng"
+Opening project: C:\Users\fatim\OneDrive\Documents\music-organizer-v1\music-organizer-v1
+1791503431427: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+java.io.FileNotFoundException while reading import cache: userhome\bluej\import-cache.xml (The system cannot find the file specified)
+org.apache.http.conn.ConnectTimeoutException: Connect to blackbox.bluej.org:443 timed out
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:545)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at bluej.collect.DataSubmitter.postData(DataSubmitter.java:177)
+	at bluej.collect.DataSubmitter.processQueue(DataSubmitter.java:133)
+	at bluej.collect.DataSubmitter$1.run(DataSubmitter.java:105)
+====
+
+====
+BlueJ run started: Thu Oct 08 23:05:29 EDT 2026
+BlueJ version 6.0.1
+Build ID: 5886da07
+Java version 21.0.6
+JavaFX version 23.0.2+3
+Virtual machine: OpenJDK 64-Bit Server VM 21.0.6+7-LTS (Eclipse Adoptium)
+Running on: Windows 11 10.0 (amd64)
+Java Home: C:\Users\fatim\OneDrive\Desktop\BlueJ-windows-6.0.1\bluej\jdk
+----
+Opening project: C:\Users\fatim\OneDrive\Documents\music-organizer-v1\music-organizer-v1
+1791515130079: Listening for JDWP connection on address: javadebug
+Connected to debug VM via dt_shmem transport...
+Communication with debug VM fully established.
+org.apache.http.conn.ConnectTimeoutException: Connect to blackbox.bluej.org:443 timed out
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:545)
+	at org.apache.http.conn.ssl.SSLSocketFactory.connectSocket(SSLSocketFactory.java:415)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
+	at org.apache.http.impl.conn.ManagedClientConnectionImpl.open(ManagedClientConnectionImpl.java:326)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at bluej.collect.DataSubmitter.postData(DataSubmitter.java:177)
+	at bluej.collect.DataSubmitter.processQueue(DataSubmitter.java:133)
+	at bluej.collect.DataSubmitter$1.run(DataSubmitter.java:105)
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
